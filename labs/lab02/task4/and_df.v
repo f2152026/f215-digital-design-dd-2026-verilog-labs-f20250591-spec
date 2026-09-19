@@ -4,5 +4,5 @@ module and_df (
   output wire y
 );
   // Continuous assignment delay (Inertial delay)
-  assign #1 y = a & b;
+  assign #2 y = a & b;
 endmodule
